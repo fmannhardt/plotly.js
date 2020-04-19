@@ -135,7 +135,7 @@
     "fuse.js": "^3.6.1",
     "glob": "^7.1.6",
     "gzip-size": "^5.1.1",
-    "image-size": "^0.7.5",
+    "image-size": "^0.8.3",
     "into-stream": "^5.1.1",
     "jasmine-core": "^3.5.0",
     "jsdom": "^16.2.2",
