@@ -9,6 +9,31 @@ https://github.com/plotly/plotly.js/compare/vX.Y.Z...master
 
 where X.Y.Z is the semver of most recent plotly.js release.
 
+## [1.54.0] -- 2020-04-30
+
+### Added
+ - Add `editbale` & `fillrule` attributes to `shapes` and introduce `newshape` & `activeshape` as well as
+   new drag modes and modebar buttons titled "drawline", "drawrect", "drawcircle", "drawopenpath",
+   "drawclosedpath" & "eraseshape" to enable drawing & editing new shapes inside cartesian subplots [#4775]
+ - Add support for `angle` and `icon-allow-overlap` in mapbox subplot [#4575]
+ - Add Portuguese (Portugal) `pt-pt` locale [#4736]
+
+### Changed
+ - Bump WebGL modules including mapbox-gl and is-mobile [#4731, #4752, #4791]
+ - Bump topojson-client v3 uses in geo subplots as well as `choropleth` & `scattergeo` traces [#4773]
+ - Bump d3-force to v1.2 used in `sankey` traces [#4768]
+ - Bump jsdom to v16 used in making schema [#4751]
+ - Bump minify-stream v2 [#4772]
+ - Bump es6-promise v4 [#4774]
+
+### Fixed
+ - Fix `react`to mapbox `style` changes [#4720]
+ - Fix transform sort order with gaps [#4783]
+ - Fix autorange for `bar` and `waterfall` when `base` is present [#4714]
+ - Fix "extremes" `opacityscale` option for `volume` & `surface` [#4725]
+ - Fix no-WebGL warning for `scattergl` and `splom` traces [#4777]
+ - Fix notifier CSS to have a fallback in font stack [#4778]
+
 
 ## [1.53.0] -- 2020-03-31
 
